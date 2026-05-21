@@ -1,0 +1,8 @@
+/target
+.claude/
+
+# Screenshot artifacts produced by scripts/ helpers
+scripts/rendered.png
+scripts/last.png
+scripts/full.png
+scripts/annotated.png

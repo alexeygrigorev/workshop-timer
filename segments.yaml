@@ -1,0 +1,32 @@
+segments:
+  - name: Intro
+    duration: 5m
+    description: Welcome, agenda, expectations
+
+  - name: Concepts
+    duration: 20m
+    description: Section 1 — core ideas and walkthrough
+
+  - name: Exercise 1
+    duration: 15m
+    description: Hands-on coding exercise
+
+  - name: Q&A
+    duration: 5m
+    description: Questions on what we've covered so far
+
+  - name: Break
+    duration: 5m
+    description: Stretch / coffee
+
+  - name: Deep Dive
+    duration: 25m
+    description: Section 2 — advanced patterns and edge cases
+
+  - name: Exercise 2
+    duration: 20m
+    description: Apply the deep-dive material
+
+  - name: Wrap-up
+    duration: 5m
+    description: Recap and next steps
