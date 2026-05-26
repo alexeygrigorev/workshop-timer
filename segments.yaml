@@ -1,32 +1,52 @@
 segments:
-  - name: Intro
-    duration: 5m
-    description: Welcome, agenda, expectations
-
-  - name: Concepts
+  - name: Intro to Agents
     duration: 20m
-    description: Section 1 — core ideas and walkthrough
-
-  - name: Exercise 1
-    duration: 15m
-    description: Hands-on coding exercise
+    description: Segment 1 — fixed RAG vs agentic RAG, visible agent loop
 
   - name: Q&A
     duration: 5m
-    description: Questions on what we've covered so far
+    description: Questions on agents intro
+
+  - name: Build the FAQ Agent
+    duration: 25m
+    description: Segment 2 — load FAQ, index with minsearch, wrap Responses API loop
+
+  - name: Q&A
+    duration: 5m
+    description: Questions on the FAQ agent
 
   - name: Break
     duration: 5m
     description: Stretch / coffee
 
-  - name: Deep Dive
-    duration: 25m
-    description: Section 2 — advanced patterns and edge cases
+  - name: Input Guardrails
+    duration: 30m
+    description: Segment 3 — topic policy, structured Pydantic decision, block off-topic
 
-  - name: Exercise 2
-    duration: 20m
-    description: Apply the deep-dive material
+  - name: Q&A
+    duration: 5m
+    description: Questions on input guardrails
+
+  - name: Output Guardrails
+    duration: 30m
+    description: Segment 4 — response safety policy, block unsafe promises
+
+  - name: Q&A
+    duration: 5m
+    description: Questions on output guardrails
+
+  - name: Break
+    duration: 5m
+    description: Stretch / coffee
+
+  - name: Combine Guardrails
+    duration: 25m
+    description: Segment 5 — chain checks, academic integrity, async concurrent runner
+
+  - name: Q&A
+    duration: 5m
+    description: Questions on combined guardrails
 
   - name: Wrap-up
-    duration: 5m
-    description: Recap and next steps
+    duration: 15m
+    description: Recap, when to use each guardrail, final Q&A
