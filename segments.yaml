@@ -1,5 +1,5 @@
 segments:
-  - name: Intro to Agents
+  - name: Intro
     duration: 20m
     description: Segment 1 — fixed RAG vs agentic RAG, visible agent loop
 
@@ -7,7 +7,7 @@ segments:
     duration: 5m
     description: Questions on agents intro
 
-  - name: Build the FAQ Agent
+  - name: FAQ Agent
     duration: 25m
     description: Segment 2 — load FAQ, index with minsearch, wrap Responses API loop
 
@@ -19,7 +19,7 @@ segments:
     duration: 5m
     description: Stretch / coffee
 
-  - name: Input Guardrails
+  - name: Input Guards
     duration: 30m
     description: Segment 3 — topic policy, structured Pydantic decision, block off-topic
 
@@ -27,7 +27,7 @@ segments:
     duration: 5m
     description: Questions on input guardrails
 
-  - name: Output Guardrails
+  - name: Output Guards
     duration: 30m
     description: Segment 4 — response safety policy, block unsafe promises
 
@@ -39,7 +39,7 @@ segments:
     duration: 5m
     description: Stretch / coffee
 
-  - name: Combine Guardrails
+  - name: All Guards
     duration: 25m
     description: Segment 5 — chain checks, academic integrity, async concurrent runner
 
